@@ -30,7 +30,7 @@ body{
 	margin: auto;
 	width: 65vw;
 	display: block;
-z-index: 10;
+    z-index: 10;
 
 }
 .select{
@@ -55,6 +55,7 @@ h1{
 	color:black;
 	background-color:yellow;
 	width: 6rem;
+	
 }
 #btn:hover{
 	background-color:orangered
