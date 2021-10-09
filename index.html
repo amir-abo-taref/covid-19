@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/png" sizes="20x20" href="./img/—Pngtree—variant metal texture variant covid-19_6225502.png" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+    <title>covid-19</title>
+  </head>
+  <body> 
+    <div class="screenopen"></div>
+		<div id="main">
+				<h1 class="header"></h1>
+				<div class="screenopen-container">
+					<label >Total Cases</label><div class="total-cases"></div>
+					<label >Total Deaths</label><div class="total-deaths"></div>
+					<label >Total Recovered</label><div class="total-recovered"></div>
+					<label >New Cases</label><div class="new-cases"></div>
+					<label >New Deaths</label><div class="new-deaths"></div>
+                    <label>Critical</label> <div class="critical"></div>
+				</div>
+      <div class="chart-container">
+				<canvas id="chart"></canvas>
+			</div>
+			<div class="firstTaple">
+				<input type="button"id="btn" class="confirmed"value="Confirmed">
+				<input type="button"id="btn" class="deaths"value="Deaths">
+				<input type="button"id="btn" class="recovered"value="Recovered">
+				<input type="button"id="btn" class="critical"value="Critical">
+			</div>
+			<div class="secondTaple">
+				<input type="button"id="btn" class="asia" value="Asia">
+				<input type="button"id="btn" class="americas"value="Americas">
+				<input type="button"id="btn"class="africa"value="Africa">
+				<input type="button"id="btn" class="europe"value="Europe">
+				<input type="button"id="btn" class="world"value="World">
+			</div>
+			<div class="selectcountry">
+            <p>select country:</p>
+			<select type="text" id="select" class="select" ></select>
+			</div>
+	
+	
+		</div>
+    <script src="./script/index.js"></script>
+  </body>
+</html>

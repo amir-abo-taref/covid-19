@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+ul {
+	list-style: none;
+}
+#main {
+	text-align: center;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	
+}
+body{
+	
+    background-image:url(../img/COVID_overview_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+	background:rgba(red, green, blue, 0.5);
+	
+}
+.chart-container {
+	position: relative;
+	margin: auto;
+	width: 65vw;
+	display: block;
+z-index: 10;
+
+}
+.select{
+	width: 20%;
+}
+.screenopen-container{
+	display: flex;
+	align-items: center;
+	width: 100vw;
+	background-color: greenyellow;
+	justify-content: center;
+	gap: 3vmin;
+	font-size: 2vw;
+
+}
+h1{
+	font-size: 3vw;
+	color:orangered;
+}
+#btn{
+	border-radius: 2rem;
+	color:black;
+	background-color:yellow;
+	width: 6rem;
+}
+#btn:hover{
+	background-color:orangered
+}
+
+
+
+
